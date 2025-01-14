@@ -1,0 +1,13 @@
+prefix=E:/baseball_stats_prediction_project/venv_baseball/Library
+exec_prefix=E:/baseball_stats_prediction_project/venv_baseball/Library
+libdir=E:/baseball_stats_prediction_project/venv_baseball/Library/lib
+sharedlibdir=E:/baseball_stats_prediction_project/venv_baseball/Library/lib
+includedir=E:/baseball_stats_prediction_project/venv_baseball/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
