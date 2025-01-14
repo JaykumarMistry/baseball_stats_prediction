@@ -70,10 +70,9 @@ This project leverages machine learning techniques to predict the **next season'
 ```plaintext
 📁 baseball-stats-prediction
 ├── 📄 batting.csv              # Preprocessed dataset
-├── 📄 main.py                  # Main script for the project
+├── 📄 main.ipynb               # Main Jupyter notebook script for the project
 ├── 📄 requirements.txt         # Dependencies for the project
 ├── 📄 README.md                # Project documentation (this file)
-└── 📂 notebooks/               # Jupyter Notebooks for analysis and visualization
 ```
 
 ---
@@ -82,18 +81,13 @@ This project leverages machine learning techniques to predict the **next season'
 
 1. **Clone the Repository**
    ```bash
-   git clone https://github.com/your-username/baseball-stats-prediction.git
-   cd baseball-stats-prediction
+   git clone https://github.com/JaykumarMistry/baseball_stats_prediction.git
+   cd baseball_stats_prediction
    ```
 
 2. **Install Dependencies**
    ```bash
    pip install -r requirements.txt
-   ```
-
-3. **Run the Script**
-   ```bash
-   python main.py
    ```
 
 ---
@@ -103,7 +97,6 @@ This project leverages machine learning techniques to predict the **next season'
 1. Incorporate non-linear models (e.g., Random Forest, XGBoost) to capture complex player dynamics.
 2. Perform hyperparameter tuning for Ridge Regression and alternative models.
 3. Visualize predictions and actual values for better insights.
-4. Build a web application to display player statistics and predictions interactively.
 
 ---
 
